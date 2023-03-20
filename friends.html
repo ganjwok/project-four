@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends</title>
+    <!--font-awesome libary-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--framework css file-->
+    <link rel="stylesheet" href="css/framework.css">
+    <!--main css file-->
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div class="page d-flex">
+        <div class="sidebar bg-white p-20 p-relative">
+            <h3 class="p-relative txt-c mt-0">GAN JA</h3>
+            <ul>
+                <li>
+                    <a class="d-flex al-items-c fs-14 c-black rad-6 p-10" href="index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex al-items-c fs-14 c-black rad-6 p-10" href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex al-items-c fs-14 c-black rad-6 p-10" href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex al-items-c fs-14 c-black rad-6 p-10" href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex al-items-c fs-14 c-black rad-6 p-10" href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active d-flex al-items-c fs-14 c-black rad-6 p-10" href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex al-items-c fs-14 c-black rad-6 p-10" href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex al-items-c fs-14 c-black rad-6 p-10" href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span>Palns</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content w-full overflow-h">
+            <!--Start head -->
+            <div class="head bg-white p-15 between-flex">
+                <div class="search p-relative">
+                    <input class="p-10 rad-10" type="search" placeholder="Search">
+                </div>
+                <div class="icons d-flex al-items-c">
+                    <span class="notification p-relative">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                    </span>
+                    <img src="imgs/avatar.png" alt="profile photo">
+                </div>
+            </div>
+            <!--End head -->
+            <h1 class="p-relative">Friends</h1>
+            <div class="friends-page m-20 d-grid gap-20">
+                <!--Start course box -->
+                <div class="friend p-20 rad-10 p-relative bg-white">
+                    <div class="contact d-flex fs-13">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="border-b-eee txt-c pt-15">
+                        <img class="rad-half" src="imgs/friend-01.jpg" alt="">
+                        <h4 class="m-0 mb-5 mt-10">Ahmad Naser</h4>
+                        <p class="c-grey fs-13 mt-0">Javascript Developer</p>
+                    </div>
+                    <div class="border-b-eee pt-15 pb-15 fs-14">
+                        <div class="mb-10">
+                            <i class="fa-regular fa-face-smile fa-fw"></i>
+                            <span class="pl-5">99 Friend</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-solid fa-code-commit fa-fw"></i>
+                            <span class="pl-5">15 Projects</span>
+                        </div>
+                        <div class="">
+                            <i class="fa-regular fa-newspaper fa-fw"></i>
+                            <span class="pl-5">40 Article</span>
+                        </div>
+                    </div>
+                    <div class="between-flex pt-15">
+                        <span class="c-grey fs-13">Joined 02/2/2023</span>
+                        <div class="fs-13 ">
+                            <a class="btn-shape bg-blue c-white profile" href="#">Profile</a>
+                            <a class="btn-shape bg-red c-white remove" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!--End course box  -->
+                <!--Start course box -->
+                <div class="friend p-20 rad-10 p-relative bg-white">
+                    <div class="contact d-flex fs-13">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="border-b-eee txt-c pt-15">
+                        <img class="rad-half" src="imgs/friend-02.jpg" alt="">
+                        <h4 class="m-0 mb-5 mt-10">Raphael Hassan</h4>
+                        <p class="c-grey fs-13 mt-0">Python Developer</p>
+                    </div>
+                    <div class="border-b-eee pt-15 pb-15 fs-14">
+                        <div class="mb-10">
+                            <i class="fa-regular fa-face-smile fa-fw"></i>
+                            <span class="pl-5">112 Friend</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-solid fa-code-commit fa-fw"></i>
+                            <span class="pl-5">20 Projects</span>
+                        </div>
+                        <div class="">
+                            <i class="fa-regular fa-newspaper fa-fw"></i>
+                            <span class="pl-5">15 Article</span>
+                        </div>
+                    </div>
+                    <div class="between-flex pt-15">
+                        <span class="c-grey fs-13">Joined 09/2/2023</span>
+                        <div class="fs-13 ">
+                            <a class="btn-shape bg-blue c-white profile" href="#">Profile</a>
+                            <a class="btn-shape bg-red c-white remove" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!--End course box  -->
+                <!--Start course box -->
+                <div class="friend p-20 rad-10 p-relative bg-white">
+                    <div class="contact d-flex fs-13">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="border-b-eee txt-c pt-15">
+                        <img class="rad-half" src="imgs/friend-03.jpg" alt="">
+                        <h4 class="m-0 mb-5 mt-10">Osman Ahmad</h4>
+                        <p class="c-grey fs-13 mt-0">Frontend Developer</p>
+                    </div>
+                    <div class="border-b-eee pt-15 pb-15 fs-14">
+                        <div class="mb-10">
+                            <i class="fa-regular fa-face-smile fa-fw"></i>
+                            <span class="pl-5">80 Friend</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-solid fa-code-commit fa-fw"></i>
+                            <span class="pl-5">12 Projects</span>
+                        </div>
+                        <div class="">
+                            <i class="fa-regular fa-newspaper fa-fw"></i>
+                            <span class="pl-5">25 Article</span>
+                        </div>
+                    </div>
+                    <div class="between-flex pt-15">
+                        <span class="c-grey fs-13">Joined 20/2/2023</span>
+                        <div class="fs-13 ">
+                            <a class="btn-shape bg-blue c-white profile" href="#">Profile</a>
+                            <a class="btn-shape bg-red c-white remove" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!--End course box  -->
+                <!--Start course box -->
+                <div class="friend p-20 rad-10 p-relative bg-white">
+                    <div class="contact d-flex fs-13">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="border-b-eee txt-c pt-15">
+                        <img class="rad-half" src="imgs/friend-04.jpg" alt="">
+                        <h4 class="m-0 mb-5 mt-10">Tarig Abdala</h4>
+                        <p class="c-grey fs-13 mt-0">PHP Developer</p>
+                    </div>
+                    <div class="border-b-eee pt-15 pb-15 fs-14">
+                        <div class="mb-10">
+                            <i class="fa-regular fa-face-smile fa-fw"></i>
+                            <span class="pl-5">90 Friend</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-solid fa-code-commit fa-fw"></i>
+                            <span class="pl-5">18 Projects</span>
+                        </div>
+                        <div class="">
+                            <i class="fa-regular fa-newspaper fa-fw"></i>
+                            <span class="pl-5">33 Article</span>
+                        </div>
+                    </div>
+                    <div class="between-flex pt-15">
+                        <span class="c-grey fs-13">Joined 29/2/2023</span>
+                        <div class="fs-13 ">
+                            <a class="btn-shape bg-blue c-white profile" href="#">Profile</a>
+                            <a class="btn-shape bg-red c-white remove" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!--End course box  -->
+                <!--Start course box -->
+                <div class="friend p-20 rad-10 p-relative bg-white">
+                    <div class="contact d-flex fs-13">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="border-b-eee txt-c pt-15">
+                        <img class="rad-half" src="imgs/friend-05.jpg" alt="">
+                        <h4 class="m-0 mb-5 mt-10">Bolis William</h4>
+                        <p class="c-grey fs-13 mt-0">Backend Developer</p>
+                    </div>
+                    <div class="border-b-eee pt-15 pb-15 fs-14">
+                        <div class="mb-10">
+                            <i class="fa-regular fa-face-smile fa-fw"></i>
+                            <span class="pl-5">120 Friend</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-solid fa-code-commit fa-fw"></i>
+                            <span class="pl-5">30 Projects</span>
+                        </div>
+                        <div class="">
+                            <i class="fa-regular fa-newspaper fa-fw"></i>
+                            <span class="pl-5">42 Article</span>
+                        </div>
+                    </div>
+                    <div class="between-flex pt-15">
+                        <span class="c-grey fs-13">Joined 02/3/2023</span>
+                        <div class="fs-13 ">
+                            <a class="btn-shape bg-blue c-white profile" href="#">Profile</a>
+                            <a class="btn-shape bg-red c-white remove" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!--End course box  -->
+                <!--Start course box -->
+                <div class="friend p-20 rad-10 p-relative bg-white">
+                    <div class="contact d-flex fs-13">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="border-b-eee txt-c pt-15">
+                        <img class="rad-half" src="imgs/friend-02.jpg" alt="">
+                        <h4 class="m-0 mb-5 mt-10">Joseph William</h4>
+                        <p class="c-grey fs-13 mt-0">Web Application Developer</p>
+                    </div>
+                    <div class="border-b-eee pt-15 pb-15 fs-14">
+                        <div class="mb-10">
+                            <i class="fa-regular fa-face-smile fa-fw"></i>
+                            <span class="pl-5">320 Friend</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-solid fa-code-commit fa-fw"></i>
+                            <span class="pl-5">47 Projects</span>
+                        </div>
+                        <div class="">
+                            <i class="fa-regular fa-newspaper fa-fw"></i>
+                            <span class="pl-5">38 Article</span>
+                        </div>
+                    </div>
+                    <div class="between-flex pt-15">
+                        <span class="c-grey fs-13">Joined 12/3/2023</span>
+                        <div class="fs-13 ">
+                            <a class="btn-shape bg-blue c-white profile" href="#">Profile</a>
+                            <a class="btn-shape bg-red c-white remove" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!--End course box  -->
+                <!--Start course box -->
+                <div class="friend p-20 rad-10 p-relative bg-white">
+                    <div class="contact d-flex fs-13">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="border-b-eee txt-c pt-15">
+                        <img class="rad-half" src="imgs/friend-01.jpg" alt="">
+                        <h4 class="m-0 mb-5 mt-10">Opite Awok</h4>
+                        <p class="c-grey fs-13 mt-0">UI Designer</p>
+                    </div>
+                    <div class="border-b-eee pt-15 pb-15 fs-14">
+                        <div class="mb-10">
+                            <i class="fa-regular fa-face-smile fa-fw"></i>
+                            <span class="pl-5">200 Friend</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-solid fa-code-commit fa-fw"></i>
+                            <span class="pl-5">80 Projects</span>
+                        </div>
+                        <div class="">
+                            <i class="fa-regular fa-newspaper fa-fw"></i>
+                            <span class="pl-5">10 Article</span>
+                        </div>
+                    </div>
+                    <div class="between-flex pt-15">
+                        <span class="c-grey fs-13">Joined 25/3/2023</span>
+                        <div class="fs-13 ">
+                            <a class="btn-shape bg-blue c-white profile" href="#">Profile</a>
+                            <a class="btn-shape bg-red c-white remove" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!--End course box  -->
+                <!--Start course box -->
+                <div class="friend p-20 rad-10 p-relative bg-white">
+                    <div class="contact d-flex fs-13">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="border-b-eee txt-c pt-15">
+                        <img class="rad-half" src="imgs/friend-04.jpg" alt="">
+                        <h4 class="m-0 mb-5 mt-10">Ahmad Naser</h4>
+                        <p class="c-grey fs-13 mt-0">Frontend Developer</p>
+                    </div>
+                    <div class="border-b-eee pt-15 pb-15 fs-14">
+                        <div class="mb-10">
+                            <i class="fa-regular fa-face-smile fa-fw"></i>
+                            <span class="pl-5">99 Friend</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-solid fa-code-commit fa-fw"></i>
+                            <span class="pl-5">30 Projects</span>
+                        </div>
+                        <div class="">
+                            <i class="fa-regular fa-newspaper fa-fw"></i>
+                            <span class="pl-5">40 Article</span>
+                        </div>
+                    </div>
+                    <div class="between-flex pt-15">
+                        <span class="c-grey fs-13">Joined 02/4/2023</span>
+                        <div class="fs-13 ">
+                            <a class="btn-shape bg-blue c-white profile" href="#">Profile</a>
+                            <a class="btn-shape bg-red c-white remove" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!--End course box  -->
+                <!--Start course box -->
+                <div class="friend p-20 rad-10 p-relative bg-white">
+                    <div class="contact d-flex fs-13">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="border-b-eee txt-c pt-15">
+                        <img class="rad-half" src="imgs/friend-05.jpg" alt="">
+                        <h4 class="m-0 mb-5 mt-10">Yahya Mohammd</h4>
+                        <p class="c-grey fs-13 mt-0">Backend Developer</p>
+                    </div>
+                    <div class="border-b-eee pt-15 pb-15 fs-14">
+                        <div class="mb-10">
+                            <i class="fa-regular fa-face-smile fa-fw"></i>
+                            <span class="pl-5">58 Friend</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-solid fa-code-commit fa-fw"></i>
+                            <span class="pl-5">19 Projects</span>
+                        </div>
+                        <div class="">
+                            <i class="fa-regular fa-newspaper fa-fw"></i>
+                            <span class="pl-5">5 Article</span>
+                        </div>
+                    </div>
+                    <div class="between-flex pt-15">
+                        <span class="c-grey fs-13">Joined 02/5/2023</span>
+                        <div class="fs-13 ">
+                            <a class="btn-shape bg-blue c-white profile" href="#">Profile</a>
+                            <a class="btn-shape bg-red c-white remove" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!--End course box  -->
+                <!--Start course box -->
+                <div class="friend p-20 rad-10 p-relative bg-white">
+                    <div class="contact d-flex fs-13">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="border-b-eee txt-c pt-15">
+                        <img class="rad-half" src="imgs/friend-03.jpg" alt="">
+                        <h4 class="m-0 mb-5 mt-10">Wad Raphael</h4>
+                        <p class="c-grey fs-13 mt-0">UI Designer</p>
+                    </div>
+                    <div class="border-b-eee pt-15 pb-15 fs-14">
+                        <div class="mb-10">
+                            <i class="fa-regular fa-face-smile fa-fw"></i>
+                            <span class="pl-5">210 Friend</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-solid fa-code-commit fa-fw"></i>
+                            <span class="pl-5">15 Projects</span>
+                        </div>
+                        <div class="">
+                            <i class="fa-regular fa-newspaper fa-fw"></i>
+                            <span class="pl-5">7 Article</span>
+                        </div>
+                    </div>
+                    <div class="between-flex pt-15">
+                        <span class="c-grey fs-13">Joined 02/6/2023</span>
+                        <div class="fs-13 ">
+                            <a class="btn-shape bg-blue c-white profile" href="#">Profile</a>
+                            <a class="btn-shape bg-red c-white remove" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!--End course box  -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
